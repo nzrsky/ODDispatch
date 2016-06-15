@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'ODDispatch'
-  s.version      = '1.0.0'
+  s.version      = '1.0.1'
   s.summary      = 'GCD utils functions'
   s.homepage     = 'https://github.com/Rogaven/ODDispatch'
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }

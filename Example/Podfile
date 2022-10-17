@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ODDispatch_Example' do
+  pod 'ODDispatch', :path => '../'
+
+  target 'ODDispatch_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

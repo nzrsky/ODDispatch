@@ -1,18 +1,15 @@
 //
-//  ODDispatch_Test.m
-//  ODXCore
-//
-//  Created by Alex Nazaroff on 15.06.16.
-//  Copyright © 2016 AJR. All rights reserved.
+//  Copyright (c) 2015-2022 Alexey Nazarov. All rights reserved.
 //
 
-#import <XCTest/XCTest.h>
-#import "ODXCore.h"
+@import XCTest;
+@import ODDispatch;
 
-@interface ODDispatch_Test : XCTestCase
+@interface Tests : XCTestCase
 @end
 
-@implementation ODDispatch_Test
+@implementation Tests
+
 
 - (void)testDispatchAsyncInBackgroundThread {
     ODDispatchAsyncInBackgroundThread(DISPATCH_QUEUE_PRIORITY_DEFAULT, ^{

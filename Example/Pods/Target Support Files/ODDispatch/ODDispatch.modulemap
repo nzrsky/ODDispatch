@@ -1,0 +1,6 @@
+framework module ODDispatch {
+  umbrella header "ODDispatch-umbrella.h"
+
+  export *
+  module * { export * }
+}

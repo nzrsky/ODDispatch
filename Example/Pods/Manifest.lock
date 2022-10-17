@@ -1,0 +1,23 @@
+PODS:
+  - ODDispatch (1.0.2):
+    - ODStringify (~> 1.1.5)
+  - ODStringify (1.1.5)
+
+DEPENDENCIES:
+  - ODDispatch (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - ODStringify
+
+EXTERNAL SOURCES:
+  ODDispatch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ODDispatch: ffa9eab058cb571c341df5175b1986da4db26196
+  ODStringify: f7285e58e01abc36c0cd5d80c89a434dd3c70c2d
+
+PODFILE CHECKSUM: a3ae690d1f29903fb27c99a5d8eb3c3d4f9a9545
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,6 @@
+framework module ODStringify {
+  umbrella header "ODStringify-umbrella.h"
+
+  export *
+  module * { export * }
+}

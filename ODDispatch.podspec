@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'ODDispatch'
-  s.version      = '1.0.2'
+  s.version      = '1.1.0'
   s.summary      = 'GCD/DispatchQueue syntax sugar for ObjC'
   s.homepage     = 'https://github.com/nzrsky/ODDispatch'
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
@@ -31,6 +31,6 @@ Pod::Spec.new do |s|
 EOS
   s.prefix_header_contents = pch_TARGETS
 	
-  s.dependency 'ODStringify', '~> 1.1.5'
+  s.dependency 'ODStringify'
 end
 
